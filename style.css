@@ -1,0 +1,75 @@
+.container{
+    background-color: rgb(164, 164, 236);
+    border-radius: 20px;
+    width: 90%;
+    margin: auto;
+    box-shadow: inset;
+}
+.content{
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+}
+.labels{
+    padding: 10px;
+    font-style: oblique;
+    border-radius: 20px;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    background-color: #eee;
+}
+.labelcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.delbutton{
+    border-radius: 30px;
+    height: 50%;
+    margin: 10px;
+    margin-left: 150%;
+    padding: 5%;
+    cursor: pointer;
+}
+.checked{
+    text-decoration: line-through;
+}
+.inputbox{
+    border-radius: 10px;
+    margin: 10px;
+    size: 50%;
+}
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    outline: none; /* Remove default focus outline */
+}
+
+/* Style when the input box is focused */
+input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.6);
+}
+
+/* Additional styling for a submit button (optional) */
+/*input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}*/
+
+ul li:nth-child(odd) {
+    background: rgb(203, 203, 248);
+}
+
+button {
+    height: 35px;
+    width: 60px;
+}
+
+
